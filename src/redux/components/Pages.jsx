@@ -32,9 +32,9 @@ const Pages = () => {
   return (
     <StPage>
       <h6>상세페이지</h6>
-      <span>ID : {todo.id}</span>
-      <h3>{todo.title}</h3>
-      <h4>{todo.text}</h4>
+      <span>ID : {todo?.id}</span>
+      <h3>{todo?.title}</h3>
+      <h4>{todo?.text}</h4>
       <StButton onClick={closeClick}>창 닫기</StButton>
     </StPage>
   );
